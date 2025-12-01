@@ -66,35 +66,7 @@ Road Rush is an adrenaline-pumping racing game built with Unity WebGL technology
 - **CDN**: jsDelivr for asset delivery
 - **Debugging**: Eruda (mobile debugging console)
 
-## 📁 Project Structure
 
-```
-road-rush/
-├── dist/               # Production build
-│   └── index.html     # Main game file
-├── src/               # Source files
-│   └── index.html     # Development version
-├── TemplateData/      # Unity WebGL template assets
-│   ├── loader.js      # Unity loader script
-│   ├── style.css      # Game styling
-│   ├── data.unityweb  # Game data
-│   ├── framework.js.unityweb
-│   └── wasm.unityweb  # WebAssembly binary
-├── favicon.ico        # Game favicon
-└── README.md          # This file
-```
-
-## 🔧 Configuration
-
-The game uses Firebase for analytics and authentication. Configuration is included in the HTML files:
-
-```javascript
-const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "escape-road-gm1.firebaseapp.com",
-  projectId: "escape-road-gm1",
-  // ... other config
-};
 ```
 
 ## 🌐 Deployment
